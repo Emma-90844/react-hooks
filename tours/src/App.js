@@ -5,6 +5,7 @@ import HoverCount from './components/HoverCount';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookCounterThree from './components/HookCounterThree'
 import HookCounterFour from './components/HookCounterFour';
+import HookUseEffectOne from  './components/HookUseEffectOne'
 class App extends Component {
   render(){
     return (
@@ -13,7 +14,8 @@ class App extends Component {
         {/* <HoverCount/> */}
         {/* <HookCounterTwo/> */}
         {/* <HookCounterThree/> */}
-        <HookCounterFour/>
+        {/* <HookCounterFour/> */}
+        <HookUseEffectOne/>
       </div>
     );
   }
