@@ -13,9 +13,16 @@ function HookMouse() {
 
     useEffect(() => {
         window.addEventListener('mousemove', logMousePosition)
+        
+        //Clean up Effect
+        return () => {
+            console.log('Component unmounting')
+            window.removeEventListener('mousemove', logMousePosition)
+        }
     }, [])
     return (
         <div>
+
             Hooks X - {x} Y - {y}
         </div>
     )
