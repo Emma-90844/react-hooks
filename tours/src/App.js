@@ -8,11 +8,13 @@ import HookCounterFour from './components/HookCounterFour';
 import HookUseEffectOne from  './components/HookUseEffectOne'
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
+import IntervalCounter from './components/IntervalCounter';
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <MouseContainer/>
+        <IntervalCounter/>
+        {/* <MouseContainer/> */}
         {/* <HookCounter/> */}
         {/* <HoverCount/> */}
         {/* <HookCounterTwo/> */}

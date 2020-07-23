@@ -9,7 +9,7 @@ function HookMouse() {
         console.log('Mouse Event')
         setX(e.clientX)
         setY(e.clientY)
-    }
+    } 
 
     useEffect(() => {
         window.addEventListener('mousemove', logMousePosition)
